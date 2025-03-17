@@ -26,7 +26,14 @@
 
 
 # 5. Faça um programa que receba a idade do usuário e retorne a idade dele somada em 10 anos no seguinte formato: Sua idade daqui a 10 anos será: <idade + 10 anos>.
+# idade = int(input("Digite sua idade:"))
+# idadefut = idade + 10
+# print(f"Sua idade é: {idade}"+ f"\nSua idade daqui 10 anos será: {idadefut}")
+
 # 6. Faça um programa que leia algo digitado pelo usuário, mostre seu tipo e tudo a respeito dele (dica: utiliza as funções is).
+# x = input ("Digite alguma coisa: ")
+# print(f"O tipo de {x} é: {type(x)}" + f"\nÉ númerico? {x.isnumeric()}" + f"\nÉ Alfabético? {x.isalpha()}" + f"\nÉ alfanumérico? {x.isalnum()}")
+
 # 7. Faça um programa receba algo digitado pelo usuário e verifique se ele digitou alguma coisa, retornando True caso tenha e False caso não tenha.
 # 8. Faça um programa que receba os seguintes dados de um funcionário: nome, idade e salario. Na empresa que esse funcionário trabalha, seu salário é aumentado de ano em ano em R$ 800,90. Sabendo disso, imprima o nome, idade e salário do funcionário daqui a 1 ano no seguinte formato: "O funcionário <nome>, daqui a 1 ano, terá <idade> anos, recebendo um salário igual a R$<salario>.
 # 9. Faça um programa que peça ao usuário para digitar dois números e mostre na tela o resultado da soma, subtração, multiplicação, divisão e resto da divisão desses números.
