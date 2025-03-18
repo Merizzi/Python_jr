@@ -35,10 +35,42 @@
 # print(f"O tipo de {x} é: {type(x)}" + f"\nÉ númerico? {x.isnumeric()}" + f"\nÉ Alfabético? {x.isalpha()}" + f"\nÉ alfanumérico? {x.isalnum()}")
 
 # 7. Faça um programa receba algo digitado pelo usuário e verifique se ele digitou alguma coisa, retornando True caso tenha e False caso não tenha.
-# 8. Faça um programa que receba os seguintes dados de um funcionário: nome, idade e salario. Na empresa que esse funcionário trabalha, seu salário é aumentado de ano em ano em R$ 800,90. Sabendo disso, imprima o nome, idade e salário do funcionário daqui a 1 ano no seguinte formato: "O funcionário <nome>, daqui a 1 ano, terá <idade> anos, recebendo um salário igual a R$<salario>.
+# x = input("Digite alguma coisa: ")
+# print(bool(x)) -> nesse trecho ele está transformando a variavel em booleana para dizer se é true ou false para se tem algo digitado - true, se não - false; eu tinha 
+# a ideia de realizar um if isnull porém não precisava de tantas voltas
+
+# 8. Faça um programa que receba os seguintes dados de um funcionário: nome, idade e salario. Na empresa que esse funcionário trabalha, 
+# seu salário é aumentado de ano em ano em R$ 800,90. Sabendo disso, imprima o nome, idade e salário do funcionário daqui a 1 ano no seguinte formato: "O funcionário <nome>, 
+# daqui a 1 ano, terá <idade> anos, recebendo um salário igual a R$<salario>.
+# nome = input("Digite o seu nome:")
+# idade = int(input("Digite a sua idade: "))
+# salario = float(input("Digite o seu salário atual:"))
+# print(f"\nDaqui 1 ano, o funcionário {nome}"+ f"\nTerá {idade + 1} anos de idade e salário apróximado de R${salario + 800.90}")
+
 # 9. Faça um programa que peça ao usuário para digitar dois números e mostre na tela o resultado da soma, subtração, multiplicação, divisão e resto da divisão desses números.
+# numero = float(input("Digite o primeiro número:"))
+# numero2 = float(input("Digite o segundo número:"))
+
+# soma = numero + numero2
+# sub = numero - numero2
+# multi = numero * numero2
+# div = numero / numero2
+# resto = numero % numero2
+# print(f"O resultado da soma desses números é: {soma}, \nO resultado da subtração desses números é: {sub} \nO resultado da multiplicação desses números é: {multi} \nO resultado da divisão desses números é: {div} \nO resultado do resto da divisão desses números é: {resto}")
+
 # 10. Faça um programa que peça ao usuário o raio de um círculo e exiba na tela a área e o perímetro desse círculo (considere pi = 3.14). Aproxime para 2 casas decimais.
+# r = float(input("Digite o valor do raio do seu círculo: "))
+# d = r*2
+# a = 3.14 * (r**2)
+# p = d * 3.14
+# print(f"A área desse círculo é: {a} e o perímetro desse círculo é: {p}")
+
 # 11. Faça um programa que peça ao usuário o preço de um produto e exiba o preço com um desconto de 10%.
+# produto = float(input("Digite o preço do seu produto:"))
+# desconto = (produto*10) / 100
+# produto_final = produto - desconto
+# print(f"O valor do seu produto com desconto de 10% é: {produto_final:.2f}")
+
 # 12. Faça um programa que leia a temperatura em graus Celsius e exiba a temperatura em graus Fahrenheit. A fórmula para converter de Celsius para Fahrenheit é: F = (9/5)*C + 32.
 # 13. Faça um programa que peça ao usuário para digitar 3 números inteiros e exiba a média aritmética desses números. Aproxime para 1 casa decimal.
 # 14. Faça um programa que leia o peso e a altura de uma pessoa e exiba o índice de massa corporal (IMC) dela. A fórmula para calcular o IMC é: IMC = peso/altura², com aproximação em 3 casas decimais.
