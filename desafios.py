@@ -71,10 +71,57 @@
 # produto_final = produto - desconto
 # print(f"O valor do seu produto com desconto de 10% é: {produto_final:.2f}")
 
-# 12. Faça um programa que leia a temperatura em graus Celsius e exiba a temperatura em graus Fahrenheit. A fórmula para converter de Celsius para Fahrenheit é: F = (9/5)*C + 32.
+# 12. Faça um programa que leia a temperatura em graus Celsius e exiba a temperatura em graus Fahrenheit. 
+# A fórmula para converter de Celsius para Fahrenheit é: F = (9/5)*C + 32.
+# c = float (input("Digite os graus Celsius na sua cidade agora: "))
+# fah = (9/5)*c + 32
+# print(f"Sua cidade apresenta no momento {fah} graus Fahrenheit nesse momento")
+
 # 13. Faça um programa que peça ao usuário para digitar 3 números inteiros e exiba a média aritmética desses números. Aproxime para 1 casa decimal.
-# 14. Faça um programa que leia o peso e a altura de uma pessoa e exiba o índice de massa corporal (IMC) dela. A fórmula para calcular o IMC é: IMC = peso/altura², com aproximação em 3 casas decimais.
-# 15. Faça um programa que leia dois números inteiros do usuário e troque seus valores, ou seja, se o primeiro número for 5 e o segundo número for 7, o programa deve fazer com que o primeiro número seja igual a 7 e o segundo número seja igual a 5.
+# a1 = int(input("Digite o seu primeiro número inteiro: "))
+# a2 = int(input("Digite o seu segundo número inteiro: "))
+# a3 = int(input("Digite o seu terceiro número inteiro: "))
+# media = (a1+a2+a3)/3
+# print(f"A sua média ponderada é: {media:.1f}")
+
+# 14. Faça um programa que leia o peso e a altura de uma pessoa e exiba o índice de massa corporal (IMC) dela. 
+# A fórmula para calcular o IMC é: IMC = peso/altura², com aproximação em 3 casas decimais.
+# peso = float (input("Digite o seu peso atual: "))
+# altura = float (input("Digite a sua altura: "))
+# imc = peso/(altura**2)
+
+# print(f"O calculo do seu imc é: {imc:.3f}")
+
+# 15. Faça um programa que leia dois números inteiros do usuário e troque seus valores, ou seja, 
+# se o primeiro número for 5 e o segundo número for 7, o programa deve fazer com que o primeiro número seja igual a 7 e o segundo número seja igual a 5.
+# a1 = int(input("Digite o seu primeiro número inteiro: "))
+# a2 = int(input("Digite o seu segundo número inteiro: "))
+# x = a1
+# a1 = a2
+# a2 = x 
+
+# print(f"O seu primeiro número foi invertido com o segundo então ele ficou: {a1}, e o seu segundo número ficou como: {a2}")
+
 # 16. Escreva um programa Python que leia um número inteiro e verifique se ele é par ou ímpar.
+# a1 = int(input("Digite o seu número inteiro: "))
+# resto = a1 % 2
+
+# if resto == 1:
+#   print("O seu número é ímpar")
+# else:
+#   print("O seu número é par")
+
 # 17. Escreva um programa Python que leia um número e retorne seu quadrado, sua raíz quadrada e sua raíz cúbica, com aproximação em 2 casas decimais.
+# numero = float(input("Digite o seu número: "))
+# quadrado = numero ** 2
+# raizquadrada = numero ** (1/2)
+# raizcubica = numero ** (1/3)
+
+# print(f"O quadrado do seu número é: {quadrado:.2f}. \nA raiz quadrada do número é: {raizquadrada:.2f}. \nA raiz cubica do número é: {raizcubica:.2f}. ")
+
 # 18. Escreva um programa Python que leia o valor de dois catetos e retorne o valor da hipotenusa, assumindo que seja possível formar um triângulo.
+# a1 = float(input("Digite o número do seu primeiro cateto: "))
+# a2 = float(input("Digite o número do seu segundo cateto: "))
+# hipo = (a1 ** 2 + a2 ** 2) ** 0.5
+
+# print(f"O valor da sua hipotenusa é: {hipo}. ")
